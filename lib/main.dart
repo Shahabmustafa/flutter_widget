@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/view/audio_music.dart';
 import 'package:flutter_widgets/view/draggable_home_screen.dart';
+import 'package:flutter_widgets/view/gap_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SelectMusics(),
+      home: GapPage(),
     );
   }
 }

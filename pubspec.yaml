@@ -43,6 +43,7 @@ dependencies:
   path_provider: ^2.0.11
   audioplayers: ^5.2.0
   intl: ^0.18.1
+  gap: ^3.0.1
 
 dev_dependencies:
   flutter_test:
