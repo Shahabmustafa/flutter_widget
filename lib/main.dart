@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/view/audio_music.dart';
-import 'package:flutter_widgets/view/draggable_home_screen.dart';
-import 'package:flutter_widgets/view/gap_screen.dart';
-import 'package:flutter_widgets/view/password_validation.dart';
+import 'package:flutter_widgets/view/gemini_screen.dart';
+import 'package:google_gemini/google_gemini.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PasswordValidation(),
+      home: GeminiPage(),
     );
   }
 }

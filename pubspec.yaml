@@ -45,6 +45,7 @@ dependencies:
   intl: ^0.18.1
   gap: ^3.0.1
   flutter_pw_validator: ^1.6.0
+  google_gemini: ^0.0.9
 
 dev_dependencies:
   flutter_test:
