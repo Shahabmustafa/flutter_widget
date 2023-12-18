@@ -15,7 +15,7 @@ class _OnlyChatState extends State<OnlyChat> {
 
   final ScrollController _controller = ScrollController();
   static final textController = TextEditingController();
-  static final googleGemini = GoogleGemini(apiKey: "AIzaSyDFxsHBgGnT44kS7Of5qSoaCx10B8i9Bkc");
+  static final googleGemini = GoogleGemini(apiKey: "");
 
   void scrollToTheEnd(){
     _controller.jumpTo(_controller.position.maxScrollExtent);
