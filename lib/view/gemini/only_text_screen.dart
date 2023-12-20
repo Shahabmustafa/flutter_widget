@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/db/gemini_api.dart';
+import 'package:get/get.dart';
 import 'package:google_gemini/google_gemini.dart';
 
 class OnlyChat extends StatefulWidget {
@@ -15,7 +17,7 @@ class _OnlyChatState extends State<OnlyChat> {
 
   final ScrollController _controller = ScrollController();
   static final textController = TextEditingController();
-  static final googleGemini = GoogleGemini(apiKey: "");
+  static final googleGemini = GoogleGemini(apiKey: "AIzaSyDFxsHBgGnT44kS7Of5qSoaCx10B8i9Bkc");
 
   void scrollToTheEnd(){
     _controller.jumpTo(_controller.position.maxScrollExtent);
@@ -51,6 +53,7 @@ class _OnlyChatState extends State<OnlyChat> {
       scrollToTheEnd();
     });
   }
+  final onlyText = Get.put(GeminiApi());
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -83,6 +86,7 @@ class _OnlyChatState extends State<OnlyChat> {
                   fromText(
                     query: textController.text,
                   );
+                  // onlyText.fromText(query: textController.text);
                 },
                 child: loading ? CircularProgressIndicator() : Icon(
                   Icons.send,

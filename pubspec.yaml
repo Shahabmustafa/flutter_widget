@@ -47,6 +47,9 @@ dependencies:
   flutter_pw_validator: ^1.6.0
   google_gemini: ^0.0.9
   image_picker: ^1.0.5
+  get: ^4.6.6
+  babylonjs_viewer: ^1.2.1
+  avatar_glow: ^3.0.1
 
 dev_dependencies:
   flutter_test:

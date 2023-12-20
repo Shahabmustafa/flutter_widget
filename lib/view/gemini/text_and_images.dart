@@ -23,7 +23,7 @@ class _TextAndImagesState extends State<TextAndImages> {
 
   final ScrollController _controller = ScrollController();
 
-  static final googleGemini = GoogleGemini(apiKey: "");
+  static final googleGemini = GoogleGemini(apiKey: "AIzaSyDFxsHBgGnT44kS7Of5qSoaCx10B8i9Bkc");
 
   void scrollToTheEnd(){
     _controller.jumpTo(_controller.position.maxScrollExtent);
