@@ -50,7 +50,10 @@ dependencies:
   get: ^4.6.6
   babylonjs_viewer: ^1.2.1
   avatar_glow: ^3.0.1
-  persistent_bottom_nav_bar: ^5.0.2
+  expansion_tile_card: ^3.0.0
+  carousel_slider: ^4.2.1
+  flutter_flip_card: ^0.0.4
+
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +81,7 @@ flutter:
   assets:
     - assets/music/
     - assets/images/
+    - assets/images/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
