@@ -50,6 +50,7 @@ dependencies:
   get: ^4.6.6
   babylonjs_viewer: ^1.2.1
   avatar_glow: ^3.0.1
+  persistent_bottom_nav_bar: ^5.0.2
 
 dev_dependencies:
   flutter_test:
