@@ -53,6 +53,7 @@ dependencies:
   expansion_tile_card: ^3.0.0
   carousel_slider: ^4.2.1
   flutter_flip_card: ^0.0.4
+  rive: ^0.12.3
 
 
 dev_dependencies:
