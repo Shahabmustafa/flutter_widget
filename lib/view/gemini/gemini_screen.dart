@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/view/gemini/only_text_screen.dart';
 import 'package:flutter_widgets/view/gemini/text_and_images.dart';
-import 'package:google_gemini/google_gemini.dart';
 
 class GeminiPage extends StatefulWidget {
   const GeminiPage({Key? key}) : super(key: key);

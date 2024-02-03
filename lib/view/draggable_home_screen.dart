@@ -1,6 +1,7 @@
 import 'package:draggable_home/draggable_home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/model/contact.dart';
+
 import '../db/db.dart';
 
 class DraggableHomePage extends StatefulWidget {

@@ -4,23 +4,22 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 
-class RiveAnimation extends StatefulWidget {
-  const RiveAnimation({super.key});
+class RiveAnimationScreen extends StatefulWidget {
+  const RiveAnimationScreen({super.key});
 
   @override
-  State<RiveAnimation> createState() => _RiveAnimationState();
+  State<RiveAnimationScreen> createState() => _RiveAnimationScreenState();
 }
 
-class _RiveAnimationState extends State<RiveAnimation> {
+class _RiveAnimationScreenState extends State<RiveAnimationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         children: [
-          // Expanded(
-
-            // child: RiveAnimation.network("https://cdn.rive.app/animations/vehicles.riv")
-          // )
+          Expanded(
+            child: RiveAnimation.network("https://cdn.rive.app/animations/vehicles.riv")
+          )
         ],
       ),
     );

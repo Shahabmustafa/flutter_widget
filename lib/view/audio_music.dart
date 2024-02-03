@@ -1,6 +1,7 @@
+import 'dart:core';
+
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'dart:core';
 
 class AudioMusic extends StatefulWidget {
   AudioMusic({Key? key,required this.musicsName,required this.musicsImage,required this.musicsURL}) : super(key: key);
