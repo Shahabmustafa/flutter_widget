@@ -1,8 +1,4 @@
-
-
-
 import 'package:flutter/material.dart';
-import 'package:rive/rive.dart';
 
 class RiveAnimationScreen extends StatefulWidget {
   const RiveAnimationScreen({super.key});
@@ -17,9 +13,9 @@ class _RiveAnimationScreenState extends State<RiveAnimationScreen> {
     return Scaffold(
       body: Column(
         children: [
-          Expanded(
-            child: RiveAnimation.network("https://cdn.rive.app/animations/vehicles.riv")
-          )
+          // Expanded(
+            // child: RiveAnimation.network("https://cdn.rive.app/animations/vehicles.riv")
+          // )
         ],
       ),
     );

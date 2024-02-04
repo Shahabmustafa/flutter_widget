@@ -59,11 +59,11 @@ class _ConfettiAnimationScreenState extends State<ConfettiAnimationScreen> {
           numberOfParticles: 10,
           // emissionFrequency: 0.10,
           maxBlastForce: 20,
-          createParticlePath: (size){
-            final path = Path();
-            path.addOval(Rect.fromCircle(center: Offset.fromDirection(20.0), radius: 10));
-            return path;
-          },
+          // createParticlePath: (size){
+          //   final path = Path();
+          //   path.addOval(Rect.fromCircle(center: Offset.fromDirection(20.0), radius: 10));
+          //   return path;
+          // },
         )
       ],
     );
