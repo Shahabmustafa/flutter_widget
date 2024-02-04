@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/view/Animation/confetti_animation.dart';
+import 'package:flutter_widgets/view/Animation/hero_animation_screen.dart';
 import 'package:flutter_widgets/view/get_api/get_api.dart';
 
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: GetApiScreen(),
+      home: const HeroAnimAtionScreen(),
     );
   }
 }
