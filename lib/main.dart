@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/view/Animation/confetti_animation.dart';
 import 'package:flutter_widgets/view/Animation/hero_animation_screen.dart';
 import 'package:flutter_widgets/view/get_api/get_api.dart';
+import 'package:flutter_widgets/view/ui_design/drop_down_screen.dart';
 
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HeroAnimAtionScreen(),
+      home: const DropDownScreen(),
     );
   }
 }
